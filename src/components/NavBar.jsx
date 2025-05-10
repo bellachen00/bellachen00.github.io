@@ -12,34 +12,51 @@ import PersonAdd from '@mui/icons-material/PersonAdd';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
 
+const navClick = (event) => {
+    const targetId = event.currentTarget.innerText.trim();
+    const anchor = document.getElementById(targetId);
+  
+    if (anchor) {
+      anchor.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+};
+
 export default function NavBar() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+//   const [anchorEl, setAnchorEl] = React.useState(null);
+//   const open = Boolean(anchorEl);
+//   const handleClick = (event) => {
+//     setAnchorEl(event.currentTarget);
+//   };
+
+  const navMenu = ['About', 'Contact', 'Resume'];
   return (
     <React.Fragment>
       <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
-        <Typography sx={{ minWidth: 100 }}>Contact</Typography>
-        <Typography sx={{ minWidth: 100 }}>Profile</Typography>
-        <Tooltip title="Account settings">
-          <IconButton
-            onClick={handleClick}
-            size="small"
-            sx={{ ml: 2 }}
-            aria-controls={open ? 'account-menu' : undefined}
-            aria-haspopup="true"
-            aria-expanded={open ? 'true' : undefined}
-          >
-            <Avatar sx={{ width: 32, height: 32 }}>M</Avatar>
-          </IconButton>
-        </Tooltip>
+        <nav>
+            {navMenu.map((item) => (
+                <button
+                    key={item}
+                    onClick={navClick}
+                    style={{
+                        cursor: 'pointer',
+                        margin: '0 8px',
+                        padding: '8px 16px',
+                        background: '#eee',
+                        border: '1px solid #ccc',
+                        borderRadius: '4px',
+                    }}
+                >
+                    <Typography sx={{minWidth: 100}}>
+                        {item}
+                    </Typography>
+                </button>
+            ))}
+        </nav>
       </Box>
-      <Menu
+      {/* <Menu
         anchorEl={anchorEl}
         id="account-menu"
         open={open}
@@ -101,7 +118,7 @@ export default function NavBar() {
           </ListItemIcon>
           Logout
         </MenuItem>
-      </Menu>
+      </Menu> */}
     </React.Fragment>
   );
 }
