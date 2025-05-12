@@ -15,7 +15,7 @@ import Logout from '@mui/icons-material/Logout';
 const navClick = (event) => {
     const targetId = event.currentTarget.innerText.trim();
     const anchor = document.getElementById(targetId);
-  
+    console.log("targetId: ", targetId);
     if (anchor) {
       anchor.scrollIntoView({
         behavior: 'smooth',
