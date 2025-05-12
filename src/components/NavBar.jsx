@@ -35,7 +35,8 @@ export default function NavBar() {
   return (
     <React.Fragment>
       <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
-        <nav>
+        <Typography>Bella Chen</Typography>
+        <nav style={{ display: 'flex', justifyContent: 'flex-end' }}>
             {navMenu.map((item) => (
                 <button
                     key={item}
