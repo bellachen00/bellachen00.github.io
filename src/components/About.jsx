@@ -3,7 +3,7 @@ import { Stack, Typography } from '@mui/joy';
 
 export default function About() {
     return (
-        <Stack direction="column" p={4} spacing={2}>
+      <Stack direction="column" p={4} spacing={2}>
         <Typography level="h5" gutterBottom>
           About Me
         </Typography>

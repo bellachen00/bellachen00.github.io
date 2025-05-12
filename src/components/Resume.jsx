@@ -1,4 +1,4 @@
-import * as react from 'react';
+import * as React from 'react';
 import { Link, Stack, Typography } from '@mui/joy';
 import LaunchRoundedIcon from '@mui/icons-material/LaunchRounded';
 import ResumePdf from '../resume/Bella_Resume.pdf';
@@ -9,7 +9,7 @@ const resumeLink = (
     </Link>
   );
   
-  export default function Resume() {
+export default function Resume() {
     return (
       <Stack direction="column" p={4} spacing={2}>
         <Typography level="h5" endDecorator={resumeLink}>
