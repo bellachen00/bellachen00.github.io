@@ -1,5 +1,5 @@
 import './App.css';
-import {Box} from '@mui/joy';
+import {Box, Divider} from '@mui/joy';
 // import { Box, Container, Divider, Grid, Stack } from '@mui/joy';
 import NavBar from './components/NavBar';
 import About from './components/About';
@@ -9,8 +9,10 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <About id="About"/>
-      <Resume id="Resume"/>
+      <Divider/>
+      <div id="About"><About/></div>
+      <div id="Resume"><Resume/></div>
+      <div id="Contact"><Contact/></div>
 
     </div>
   );
