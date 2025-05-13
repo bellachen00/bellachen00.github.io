@@ -25,11 +25,6 @@ const navClick = (event) => {
 };
 
 export default function NavBar() {
-//   const [anchorEl, setAnchorEl] = React.useState(null);
-//   const open = Boolean(anchorEl);
-//   const handleClick = (event) => {
-//     setAnchorEl(event.currentTarget);
-//   };
 
   const navMenu = ['About', 'Contact', 'Resume'];
   return (

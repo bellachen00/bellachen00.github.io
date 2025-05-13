@@ -8,11 +8,9 @@ import Resume from './components/Resume';
 function App() {
   return (
     <div className="App">
-      <Box>
-        <NavBar/>
-      </Box>
-      <About/>
-      <Resume/>
+      <NavBar/>
+      <About id="About"/>
+      <Resume id="Resume"/>
 
     </div>
   );
