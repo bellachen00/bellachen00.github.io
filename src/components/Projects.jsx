@@ -37,16 +37,16 @@ import { Description } from '@mui/icons-material';
   export default function Projects() {
     return (
         <Stack direction={'column'}>
-            <Typography>
+            <Typography variant='h4'>
                 Projects
             </Typography>
-            <Grid container spacing={1} p={0}>
+            <Grid container spacing={4} p={0}>
                 {myProjects.map(project => (
                 <List xs={12}>
-                    <Link href={project.link} >
-                        {project.title}
-                    </Link>
-                    <Stack spacing={1}>
+                    <Stack spacing={1} p={2} sx={{ border: '1px solid #ddd', borderRadius: 1 }}>
+                        <Link href={project.link} >
+                            {project.title}
+                        </Link>
                         {project.desc.map((line, i) => (
                         <Typography key={i} variant="body2" color="text.secondary">
                             {line}
