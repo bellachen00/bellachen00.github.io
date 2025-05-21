@@ -52,6 +52,7 @@ import { Description } from '@mui/icons-material';
                             {line}
                         </Typography>
                         ))}
+                        <Divider/>
                     </Stack>
                 </List>
                 ))}
