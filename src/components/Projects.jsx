@@ -40,10 +40,10 @@ import { Description } from '@mui/icons-material';
             <Typography variant='h4'>
                 Projects
             </Typography>
-            <Grid container spacing={4} p={0}>
+            <Grid container spacing={4} p={0} sx={{ flexWrap: 'wrap' }}>
                 {myProjects.map(project => (
                 <List xs={12}>
-                    <Stack spacing={1} p={2} sx={{ border: '1px solid #ddd', borderRadius: 1 }}>
+                    <Stack spacing={1} p={2} sx={{ width: '100%', border: '1px solid #ddd', borderRadius: 1 }}>
                         <Link href={project.link} >
                             {project.title}
                         </Link>
