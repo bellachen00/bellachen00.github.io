@@ -1,10 +1,11 @@
-import React from 'react';
+import * as React from 'react';
 import { Box, Typography } from '@mui/material';
 
 const navClick = (event) => {
   const targetId = event.currentTarget.innerText.trim();
   const anchor = document.getElementById(targetId);
   console.log("targetId:", targetId);
+  console.log("anchor: ", anchor);
 
   if (anchor) {
     anchor.scrollIntoView({
