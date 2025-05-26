@@ -16,7 +16,7 @@ const navClick = (event) => {
 };
 
 export default function NavBar() {
-  const navMenu = ['About', 'Contact', 'Resume'];
+  const navMenu = ['About', 'Contact', 'Projects', 'Resume'];
 
   return (
     <Box

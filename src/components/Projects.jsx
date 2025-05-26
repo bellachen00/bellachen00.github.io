@@ -1,24 +1,20 @@
 import * as React from 'react';
 import {
-    Box,
-    Button,
-    Card,
     Divider,
     Grid,
     Link,
-    List,
-    ListItemDecorator,
-    ListItem,
     Stack,
     Typography,
   } from '@mui/joy';
-import { Description } from '@mui/icons-material';
+
 
   const myProjects = [
     {
         title: "Multi-Threaded HTTP Server",
         link: "",
-        desc: [""],
+        desc: ['Developed a HTTP server from C that was able to process GET and PUT requests synchronously by using threads',
+            'Allowed the server to accept multiple connections within a port by creating worker threads'
+        ],
     },
     {
         title: "Javascript Calendar",
@@ -28,9 +24,11 @@ import { Description } from '@mui/icons-material';
         ],
     },
     {
-        title: "Gmail Clone",
-        link: "",
-        desc: [""],
+        title: "Weather App",
+        link: "https://github.com/bellachen00/Weather-App",
+        desc: ['A weather application that displays the temperatures of any city per hour basis', 
+            'Implemented an input div in order to enter the city of choice'
+        ],
     },
   ];
 

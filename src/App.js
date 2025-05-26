@@ -5,6 +5,7 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,12 +23,35 @@ function App() {
         <Projects />
       </Box>
 
-      <Box id="Resume" sx={{ py: 4 }}>
+      <Box sx={{ py: 4 }}>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: { xs: 'column', md: 'row' },
+            gap: 4,
+          }}
+        >
+          {/* Resume section with its own ID */}
+          <Box id="Resume" sx={{ flex: 1 }}>
+            <Resume />
+          </Box>
+
+          {/* Contact section with its own ID */}
+          <Box id="Contact" sx={{ flex: 1 }}>
+            <Contact />
+          </Box>
+        </Box>
+      </Box>
+      {/* <Box id="Resume" sx={{ py: 4 }}>
         <Resume />
       </Box>
 
       <Box id="Contact" sx={{ py: 4 }}>
         <Contact />
+      </Box> */}
+
+      <Box sx={{ py: 4 }}>
+        <Footer />
       </Box>
     </div>
   );
