@@ -1,6 +1,5 @@
 import * as React from 'react';
 import {
-    Divider,
     Grid,
     Link,
     Stack,
@@ -57,7 +56,6 @@ export default function Projects() {
                   {line}
                 </Typography>
               ))}
-              <Divider />
             </Stack>
           </Grid>
         ))}
