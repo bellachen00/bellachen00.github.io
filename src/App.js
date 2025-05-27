@@ -6,6 +6,7 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import { lightBlue } from '@mui/material/colors';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Projects />
       </Box>
 
-      <Box sx={{ py: 4 }}>
+      <Box sx={{ py: 4, backgroundColor: 'lightblue' }}>
         <Box
           sx={{
             display: 'flex',
