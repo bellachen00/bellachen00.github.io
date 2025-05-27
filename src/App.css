@@ -1,14 +1,15 @@
-html, body {
+html, body, #root, .App {
   background-color: lightblue;
   margin: 0px;
   padding: 0px;
+  height: 100%;
+
 }
 
 .App {
-  height: 100%;
   text-align: center;
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -42,4 +43,4 @@ html, body {
   to {
     transform: rotate(360deg);
   }
-}
+} */
