@@ -10,7 +10,7 @@ import {
   const myProjects = [
     {
         title: "Multi-Threaded HTTP Server",
-        link: "",
+        link: "https://github.com/bellachen00/MultiThreaded-HTTPServer",
         desc: ['Developed a HTTP server from C that was able to process GET and PUT requests synchronously by using threads',
             'Allowed the server to accept multiple connections within a port by creating worker threads'
         ],
