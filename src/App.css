@@ -11,9 +11,11 @@ html, body, #root, .App {
 }
 
 #About, #Projects, #Contact, #Resume {
-  box-sizing: content-box;
+  box-sizing: border-box;
   border-radius: 15px;
   background-color: pink;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 /* 
 .App-logo {
