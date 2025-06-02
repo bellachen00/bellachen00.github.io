@@ -30,16 +30,15 @@ function App() {
             display: 'flex',
             flexDirection: { xs: 'column', md: 'row' },
             gap: 4,
-            textAlign: 'center',
           }}
         >
           {/* Resume section with its own ID */}
-          <Box id="Resume" sx={{ flex: 1 }}>
+          <Box id="Resume" sx={{ flex: 1,  textAlign: 'center'}}>
             <Resume />
           </Box>
 
           {/* Contact section with its own ID */}
-          <Box id="Contact" sx={{ flex: 1 }}>
+          <Box id="Contact" sx={{ flex: 1, textAlign: 'center'}}>
             <Contact />
           </Box>
         </Box>
