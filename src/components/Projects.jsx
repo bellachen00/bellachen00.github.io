@@ -37,7 +37,7 @@ export default function Projects() {
       <Typography fontSize={20}>
         Projects
       </Typography>
-      <Grid container spacing={4} p={0} sx={{ flexWrap: 'wrap' }}>
+      <Grid container spacing={4} p={0} sx={{ flexWrap: 'wrap'}}>
         {myProjects.map((project, index) => (
           <Grid
             item
@@ -46,7 +46,7 @@ export default function Projects() {
             md={4}   // One-third width on larger screens (desktop)
             key={index}
           >
-            <Stack spacing={1} p={2} sx={{ border: '1px solid #ddd', borderRadius: 1 }}>
+            <Stack spacing={1} p={2} sx={{ border: '3px dotted white', borderRadius: 15 }}>
               <Link href={project.link}>
                 {project.title}
               </Link>

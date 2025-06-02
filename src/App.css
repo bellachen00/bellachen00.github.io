@@ -14,7 +14,7 @@ html, body, #root, .App {
   width: fit-content;
   box-sizing: border-box;
   border-radius: 15px;
-  background-color: pink;
+  background-color: lightpink;
   padding: 20px;
   margin: 20px auto;
 }

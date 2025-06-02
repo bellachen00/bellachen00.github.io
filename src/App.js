@@ -43,7 +43,7 @@ function App() {
           </Box>
         </Box>
       </Box>
-
+      <Divider/>
       <Box sx={{ py: 4 }}>
         <Footer />
       </Box>
