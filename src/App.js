@@ -33,12 +33,12 @@ function App() {
           }}
         >
           {/* Resume section with its own ID */}
-          <Box id="Resume" sx={{ flex: 1,  textAlign: 'center'}}>
+          <Box id="Resume" sx={{ flex: 1 }}>
             <Resume />
           </Box>
 
           {/* Contact section with its own ID */}
-          <Box id="Contact" sx={{ flex: 1, textAlign: 'center'}}>
+          <Box id="Contact" sx={{ flex: 1 }}>
             <Contact />
           </Box>
         </Box>

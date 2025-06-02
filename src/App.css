@@ -18,6 +18,10 @@ html, body, #root, .App {
   padding: 20px;
   margin: 20px auto;
 }
+
+#Resume, #Contact {
+  text-align: center;
+}
 /* 
 .App-logo {
   height: 40vmin;

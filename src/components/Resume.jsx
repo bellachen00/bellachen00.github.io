@@ -11,7 +11,7 @@ const resumeLink = (
 export default function Resume() {
     return (
       <Stack direction="column" p={4} spacing={2}>
-        <Typography level="h5" endDecorator={resumeLink}>
+        <Typography level="h5" endDecorator={resumeLink} fontSize={20}>
           Resume
         </Typography>
       </Stack>

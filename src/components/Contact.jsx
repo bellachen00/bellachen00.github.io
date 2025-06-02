@@ -19,7 +19,7 @@ const contact = [
 export default function Contact() {
     return (
         <Stack direction="column" p={4} spacing={2}>
-          <Typography level="h5" gutterBottom sx={{ alignSelf: 'flex-start'}}> 
+          <Typography level="h5" gutterBottom sx={{ alignSelf: 'flex-start', fontSize: 20}}> 
             Contact Me
           </Typography>
           <List sx={{ p: 0 }}>
