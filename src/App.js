@@ -30,6 +30,7 @@ function App() {
             display: 'flex',
             flexDirection: { xs: 'column', md: 'row' },
             gap: 4,
+            textAlign: 'center',
           }}
         >
           {/* Resume section with its own ID */}
