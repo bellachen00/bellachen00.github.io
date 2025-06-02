@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.14c69721.css",
-    "main.js": "/static/js/main.37191778.js",
+    "main.js": "/static/js/main.898d0736.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/Bella_Resume.pdf": "/static/media/Bella_Resume.18bb0de3f63310394c09.pdf",
     "index.html": "/index.html",
     "main.14c69721.css.map": "/static/css/main.14c69721.css.map",
-    "main.37191778.js.map": "/static/js/main.37191778.js.map",
+    "main.898d0736.js.map": "/static/js/main.898d0736.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14c69721.css",
-    "static/js/main.37191778.js"
+    "static/js/main.898d0736.js"
   ]
 }
