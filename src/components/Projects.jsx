@@ -35,7 +35,7 @@ import {
 export default function Projects() {
   return (
     <Stack direction={'column'}>
-      <Typography>
+      <Typography fontSize={20}>
         Projects
       </Typography>
       <Grid container spacing={4} p={0} sx={{ flexWrap: 'wrap' }}>

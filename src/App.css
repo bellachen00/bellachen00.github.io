@@ -9,6 +9,11 @@ html, body, #root, .App {
 .App {
   text-align: center;
 }
+
+#About, #Projects, #Contact, #Resume {
+  border-radius: 15px;
+  background-color: pink;
+}
 /* 
 .App-logo {
   height: 40vmin;
