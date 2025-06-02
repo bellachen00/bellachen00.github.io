@@ -11,7 +11,7 @@ html, body, #root, .App {
 }
 
 #About, #Projects, #Contact, #Resume {
-  box-sizing: border-box;
+  box-sizing: content-box;
   border-radius: 15px;
   background-color: pink;
 }
