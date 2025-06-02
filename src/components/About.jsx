@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { Stack, Typography } from '@mui/joy';
 
 export default function About() {

@@ -1,5 +1,5 @@
 import './App.css';
-import { Box, Divider, Stack } from '@mui/joy';
+import { Box, Divider} from '@mui/joy';
 import NavBar from './components/NavBar';
 import About from './components/About';
 import Resume from './components/Resume';

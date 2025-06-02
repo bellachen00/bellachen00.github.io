@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { CssBaseline, IconButton, Link, Stack, Typography } from '@mui/joy';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
