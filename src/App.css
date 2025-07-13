@@ -19,9 +19,7 @@ html, body, #root, .App {
   margin: 20px auto;
 }
 
-#Resume, #Contact {
-  text-align: center;
-}
+
 /* 
 .App-logo {
   height: 40vmin;
